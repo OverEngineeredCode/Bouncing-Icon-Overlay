@@ -12,6 +12,7 @@ newSpd = input("Enter the new speed:")
 configFile = open("config.js", "r")
 configText = configFile.read()
 configText = configText.replace("const config = ", "", 1)
+configText = configText.replace(";", "", 1)
 
 configJSON = json.loads(configText)
 configFile.close()
