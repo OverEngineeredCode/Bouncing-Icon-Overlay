@@ -5,7 +5,7 @@
     under certain conditions; again, see LICENCE for details.
 */
 
-const icons = ["cpp", "c", "c#", "js-sq", "js-bd", "node", "react", "python", "php", "tux"]
+const icons = config["icons"]
 
 var context;
 var img;
